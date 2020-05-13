@@ -116,10 +116,10 @@
                 <version>2.22.1</version>
                 <configuration>
                     <includes>
-                        <include>**/*Test.java</include>
-                        <include>**/Test*.java</include>
+<!--                        <include>**/*Test.java</include>-->
+<!--                        <include>**/Test*.java</include>-->
                         <include>**/*TestSuite.java</include>
-                        <include>**/When*.java</include>
+<!--                        <include>**/When*.java</include>-->
                     </includes>
                     <systemPropertyVariables>
                         <webdriver.base.url>${webdriver.base.url}</webdriver.base.url>
